@@ -1,6 +1,6 @@
 # 小林聡一 生徒展 — ランディングページ
 
-小林聡一の生徒による絵画グループ展のための、静的ランディングページです。海外美術館の企画展ポスターをイメージしたタイポグラフィと、複数作品が重なるランダムコラージュを採用しています。
+小林聡一のもとで油彩やペン画を学ぶ生徒たちによるグループ展の、静的ランディングページです。海外美術館の企画展ポスターをイメージしたタイポグラフィと、複数作品が重なるランダムコラージュを採用しています。
 
 ## 展覧会情報
 
@@ -86,7 +86,9 @@ GitHub Pages、Netlify、Cloudflare Pages、一般的なレンタルサーバー
 
 `.github/workflows/pages.yml` に自動公開ワークフローを用意しています。`main` ブランチへのpushごとにGitHub Pagesを有効化してサイトを公開し、**Actions → Deploy to GitHub Pages → Run workflow** から手動公開もできます。自動的に有効化できない場合は、リポジトリの **Settings → Pages → Build and deployment → Source** を **GitHub Actions** に設定してください。
 
-公開URLは通常 `https://<account>.github.io/<repository>/` です。デプロイ完了後の正確なURLは、ワークフローの `deploy` ジョブに表示されます。
+公開URL: <https://piriwata.github.io/joint-exhibition-2026/>
+
+デプロイ状況と公開URLは、ワークフローの `deploy` ジョブでも確認できます。
 
 ## 変更時のチェックリスト
 
