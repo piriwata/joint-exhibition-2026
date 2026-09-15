@@ -82,6 +82,12 @@ npm test
 
 GitHub Pages、Netlify、Cloudflare Pages、一般的なレンタルサーバーなどで配信できます。サブディレクトリへ配置する場合も、現在のアセット参照は相対パスのため追加設定は不要です。
 
+### GitHub Pages
+
+`.github/workflows/pages.yml` に自動公開ワークフローを用意しています。`main` ブランチへのpushごとにGitHub Pagesを有効化してサイトを公開し、**Actions → Deploy to GitHub Pages → Run workflow** から手動公開もできます。自動的に有効化できない場合は、リポジトリの **Settings → Pages → Build and deployment → Source** を **GitHub Actions** に設定してください。
+
+公開URLは通常 `https://<account>.github.io/<repository>/` です。デプロイ完了後の正確なURLは、ワークフローの `deploy` ジョブに表示されます。
+
 ## 変更時のチェックリスト
 
 - [ ] `npm test` が成功する
